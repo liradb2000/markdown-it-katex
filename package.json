@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-katex",
-  "version": "2.0.3",
-  "description": "Fast math support for markdown-it with KaTeX",
+  "name": "@liradb2000/markdown-it-katex",
+  "version": "2.0.5",
+  "description": "Forked Package(markdown-it-KaTeX)",
   "main": "index.js",
   "scripts": {
     "watch": "watchify browser.js -o bundle.js -v",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:waylonflinn/markdown-it-katex.git"
+    "url": "git+https://github.com/liradb2000/markdown-it-katex"
   },
   "keywords": [
     "markdown",
@@ -19,10 +19,13 @@
     "markdown-it-plugin",
     "markdown-it"
   ],
-  "author": "waylonflinn@gmail.com",
+  "author": {
+    "name": "DB KIM",
+    "email": "liradb2000@live.co.kr"
+  },
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.6.0"
+    "katex": "^0.10.1"
   },
   "devDependencies": {
     "markdown-it": "^6.0.0",
