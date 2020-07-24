@@ -1,4 +1,4 @@
-# Update KATEX@0.11.1
+# Update KATEX@0.12.0
 
 # markdown-it-katex
 
